@@ -1,0 +1,95 @@
+.VWYX_user-box_main-div {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid gray;
+  padding: 1rem;
+  color: aliceblue;
+  font-size: 25px;
+  margin: 1rem 10rem;
+}
+
+.VWYX_text {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 10;
+}
+.VWYX_text div {
+  padding: 1rem;
+}
+
+.VWYX_text a {
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.VWYX_user_repos-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.VWYX_repo-divs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.VWYX_repo-div {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid gray;
+  padding: 1rem;
+  width: 450px;
+  margin: 0.5rem;
+  border-radius: 5px;
+  background-color: gray;
+  justify-content: space-between;
+}
+
+.VWYX_head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.3rem 2rem;
+}
+
+.VWYX_repo-name {
+  padding: 1rem;
+  color: #040c18;
+}
+
+.VWYX_repo-div p {
+  font-size: 20px;
+}
+
+.VWYX_left-side{
+    margin: 1rem;
+}
+
+
+
+@media screen and (max-width: 1315px) {
+    .VWYX_user-box_main-div {
+        flex-direction: column;
+        align-items: center;
+      }
+      .VWYX_repo-divs {
+        align-items: center;
+      }
+  }
+
+  @media screen and (max-width: 851px) {
+    .VWYX_user-box_main-div {
+        margin: 1rem 1rem;
+      }
+
+      .VWWYX_img img {
+        width: 100%;
+    }
+    .VWYX_repo-div {
+        width: 80%;
+        align-items: center;
+      }
+      .VWYX_repo-divs {
+        justify-content: center;
+      }
+  }

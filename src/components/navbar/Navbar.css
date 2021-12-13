@@ -1,0 +1,74 @@
+.VWYX_navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: aliceblue;
+    padding: 3rem 6rem;
+}
+
+.VWYX_navbar_brand {  
+    font-size: 50px;    
+
+}
+
+.VWYX_navbar_right-side{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.VWYX_search_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+    background: #17B978;
+    border-radius: 5px;
+    padding: .7rem;
+    cursor: pointer;
+
+    margin: 0 2rem;
+}
+
+.VWYX_title_v1{
+    font-size: 30px;
+}
+
+.VWYX_btn{
+    /* display: flex;
+    justify-content: space-between; */
+    align-items: center;
+    background: #17B978;
+    border-radius: 5px;
+    padding: .7rem;
+    cursor: pointer;
+}
+
+.VWYX_input {
+    font: inherit;
+    padding: 0.2em 0.5em;
+    margin: 0 1rem;
+}
+
+
+@media screen and (max-width: 851px) {
+    .VWYX_navbar{
+        flex-direction: column;
+        padding: 3rem 1rem;
+        align-items: center;
+        /* justify-content: space-around; */
+    }
+
+    .VWYX_navbar_right-side{
+        flex-direction: column;
+
+    }
+    .VWYX_search_btn{
+        flex-direction: column;
+    }
+    .VWYX_title_v1{
+        margin: 1rem 0;
+    }
+  }
