@@ -13,20 +13,6 @@ function UserBox(props) {
       setrepos(data);
     });
 
-  //   useEffect(() => {
-  //     // getUsers();
-
-  //     fetch("https://api.github.com/users/" + props.name)
-  //     .then((resp) => {
-  //       return resp.json();
-  //     })
-  //     .then((data) => {
-  //       setuser(data);
-  //       setIsLoading(false);
-  //       console.log(data);
-  //     });
-  //   }, []);
-
   return (
     <div className="VWYX_user-box_main-div">
       <div className="VWYX_left-side" >
@@ -68,7 +54,7 @@ function UserBox(props) {
                 </a>
                 <p>{repo.description}</p>
                 <span style={{alignSelf:"flex-end",fontSize:"12px"}} >{repo.created_at}</span>
-                {/* <a href={repo.html_url}>Go Repository</a> */}
+             
               </div>
             );
           })}

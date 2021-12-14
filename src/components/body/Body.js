@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Content from "../content/Content";
 import Navbar from "../navbar/Navbar";
 import UserBox from "../userbox/UserBox";
 
